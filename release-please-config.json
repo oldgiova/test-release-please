@@ -3,12 +3,14 @@
     {
       "branch": "1.0.x",
       "release-type": "simple",
-      "changelog-types": ["feat", "fix", "docs", "chore"]
+      "changelog-types": ["feat", "fix", "docs", "chore"],
+      "handle-pull-request": true
     },
     {
       "branch": "1.1.x",
       "release-type": "simple",
-      "changelog-types": ["feat", "fix", "docs", "chore"]
+      "changelog-types": ["feat", "fix", "docs", "chore"],
+      "handle-pull-request": true
     }
   ]
 }
