@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/oldgiova/test-release-please/compare/v1.0.2...v1.1.0) (2024-09-08)
+
+
+### Features
+
+* second feature ([f320a3d](https://github.com/oldgiova/test-release-please/commit/f320a3d29d86e06abcdd7b80bc3b88ea01cf27bd))
+
 ## 1.0.2 (2024-09-08)
 
 
