@@ -1,26 +1,26 @@
-on:
-  push:
-    branches:
-      - '*.*.x'
-
-permissions:
-  contents: write
-  pull-requests: write
-
-name: release-please
-
-jobs:
-  release-please:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: googleapis/release-please-action@v4
-        with:
-          release-type: simple
-          package-name: my-package-name
-          config-file: release-please-config.json
-          manifest-file: .release-please-manifest.json
-          token: ${{ secrets.GITHUB_TOKEN }}
-          changelog-types: |
-            feat, fix, docs, chore
-          target-branch: ${{ github.ref_name }}
+#on:
+#  push:
+#    branches:
+#      - '*.*.x'
+#
+#permissions:
+#  contents: write
+#  pull-requests: write
+#
+#name: release-please
+#
+#jobs:
+#  release-please:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v3
+#      - uses: googleapis/release-please-action@v4
+#        with:
+#          release-type: simple
+#          package-name: my-package-name
+#          config-file: release-please-config.json
+#          manifest-file: .release-please-manifest.json
+#          token: ${{ secrets.GITHUB_TOKEN }}
+#          changelog-types: |
+#            feat, fix, docs, chore
+#          target-branch: ${{ github.ref_name }}
