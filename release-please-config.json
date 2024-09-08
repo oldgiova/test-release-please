@@ -1,5 +1,14 @@
 {
-  "packages": {
-    "hello/": {}
-  }
+  "branches": [
+    {
+      "branch": "1.0.x",
+      "release-type": "simple",
+      "changelog-types": ["feat", "fix", "docs", "chore"]
+    },
+    {
+      "branch": "1.1.x",
+      "release-type": "simple",
+      "changelog-types": ["feat", "fix", "docs", "chore"]
+    }
+  ]
 }
