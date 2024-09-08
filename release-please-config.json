@@ -1,7 +1,6 @@
 {
   "release-type": "simple",
   "packages": {
-    "hello/": {},
     ".": {
       "changelog-path": "CHANGELOG.md",
       "release-type": "simple",
@@ -11,6 +10,18 @@
       "prerelease": false
     }
   },
-  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "branches": [
+    {
+      "branch": "1.0.x",
+      "release-type": "simple",
+      "changelog-types": ["feat", "fix", "docs", "chore"]
+    },
+    {
+      "branch": "1.1.x",
+      "release-type": "simple",
+      "changelog-types": ["feat", "fix", "docs", "chore"]
+    }
+  ]
 }
 
